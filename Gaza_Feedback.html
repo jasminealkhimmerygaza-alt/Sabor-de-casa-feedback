@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Rate Your Culinary Experience | Sabor de Casa</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="Gaza_style.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION -->
+    <header class="site-header">
+
+        <nav class="nav-bar">
+
+            <a href="index.html" class="nav-logo">
+                <span>Sabor de Casa</span>
+                <small>A Taste of Portugal</small>
+            </a>
+
+            <ul class="nav-links">
+
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+
+                <li>
+                    <a href="index.html#recipes">Recipes</a>
+                </li>
+
+                <li>
+                    <a href="index.html#culture">Journey</a>
+                </li>
+
+                <li>
+                    <a href="index.html#sources">References</a>
+                </li>
+
+                <li>
+                    <a href="Gaza_Feedback.html" class="active">Feedback</a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+    <!-- HERO SECTION -->
+    <section class="feedback-hero">
+
+        <div class="hero-content">
+
+            <p class="eyebrow">
+                SABOR DE CASA
+            </p>
+
+            <h1>
+                Rate Your Culinary Experience
+            </h1>
+
+            <p>
+                Share your opinions about Portuguese cuisine
+                and your experience with our website.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- FEEDBACK FORM -->
+    <main class="form-container">
+
+        <form>
+
+
+            <!-- 01 VISITOR INFORMATION -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    01
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Visitor Information</h2>
+
+                    <p class="section-description">
+                        Please provide your basic information.
+                    </p>
+
+                    <div class="form-grid">
+
+                        <div class="form-group">
+
+                            <label for="fullname">
+                                Full Name
+                            </label>
+
+                            <input
+                                type="text"
+                                id="fullname"
+                                name="fullname"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="email">
+                                Email Address
+                            </label>
+
+                            <input
+                                type="email"
+                                id="email"
+                                name="email"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="password">
+                                Password
+                            </label>
+
+                            <input
+                                type="password"
+                                id="password"
+                                name="password"
+                                required
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="contact">
+                                Contact Number
+                            </label>
+
+                            <input
+                                type="tel"
+                                id="contact"
+                                name="contact"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="age">
+                                Age
+                            </label>
+
+                            <input
+                                type="number"
+                                id="age"
+                                name="age"
+                                min="1"
+                            >
+
+                        </div>
+
+
+                        <div class="form-group">
+
+                            <label for="date">
+                                Date of Visit
+                            </label>
+
+                            <input
+                                type="date"
+                                id="date"
+                                name="date"
+                            >
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 02 FAVORITE RECIPE -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    02
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Favorite Recipe</h2>
+
+                    <p class="section-description">
+                        Choose only one favorite Portuguese recipe.
+                    </p>
+
+                    <div class="choice-grid">
+
+                        <label class="choice-card">
+                            <input
+                                type="radio"
+                                name="recipe"
+                                value="Bacalhau à Brás"
+                            >
+                            <span>Bacalhau à Brás</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="radio"
+                                name="recipe"
+                                value="Caldo Verde"
+                            >
+                            <span>Caldo Verde</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="radio"
+                                name="recipe"
+                                value="Pastéis de Nata"
+                            >
+                            <span>Pastéis de Nata</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="radio"
+                                name="recipe"
+                                value="Cataplana"
+                            >
+                            <span>Cataplana</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="radio"
+                                name="recipe"
+                                value="Açorda"
+                            >
+                            <span>Açorda</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 03 FAVORITE INGREDIENTS -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    03
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Favorite Ingredients</h2>
+
+                    <p class="section-description">
+                        Select more than one ingredient.
+                    </p>
+
+                    <div class="choice-grid">
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="ingredients"
+                                value="Olive Oil"
+                            >
+                            <span>Olive Oil</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="ingredients"
+                                value="Bacalhau"
+                            >
+                            <span>Bacalhau</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="ingredients"
+                                value="Garlic"
+                            >
+                            <span>Garlic</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="ingredients"
+                                value="Piri-Piri"
+                            >
+                            <span>Piri-Piri</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="ingredients"
+                                value="Cinnamon"
+                            >
+                            <span>Cinnamon</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="ingredients"
+                                value="Eggs"
+                            >
+                            <span>Eggs</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 04 CUISINE CATEGORY -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    04
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Cuisine Category</h2>
+
+                    <p class="section-description">
+                        Select a cuisine category.
+                    </p>
+
+                    <select name="category">
+
+                        <option value="">
+                            Select a category
+                        </option>
+
+                        <option value="Appetizer">
+                            Appetizer
+                        </option>
+
+                        <option value="Main Dish">
+                            Main Dish
+                        </option>
+
+                        <option value="Dessert">
+                            Dessert
+                        </option>
+
+                        <option value="Soup">
+                            Soup
+                        </option>
+
+                        <option value="Beverage">
+                            Beverage
+                        </option>
+
+                    </select>
+
+                </div>
+
+            </section>
+
+
+            <!-- 05 CULINARY INTERESTS -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    05
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Culinary Interests</h2>
+
+                    <p class="section-description">
+                        Select more than one topic that interests you.
+                    </p>
+
+                    <select
+                        name="interests"
+                        multiple
+                    >
+
+                        <option value="History">
+                            History
+                        </option>
+
+                        <option value="Ingredients">
+                            Ingredients
+                        </option>
+
+                        <option value="Cooking Techniques">
+                            Cooking Techniques
+                        </option>
+
+                        <option value="Food Culture">
+                            Food Culture
+                        </option>
+
+                        <option value="Traditional Recipes">
+                            Traditional Recipes
+                        </option>
+
+                        <option value="Food Presentation">
+                            Food Presentation
+                        </option>
+
+                    </select>
+
+                    <span class="help-text">
+                        Hold Ctrl or Command to select multiple choices.
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- 06 CUISINE RATING -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    06
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Cuisine Rating</h2>
+
+                    <p class="section-description">
+                        Rate the Portuguese cuisine from 1 to 10.
+                    </p>
+
+                    <div class="rating-box">
+
+                        <div class="rating-number">
+
+                            <output id="rating-value">
+                                5
+                            </output>
+
+                            <small>/ 10</small>
+
+                        </div>
+
+
+                        <input
+                            type="range"
+                            id="rating"
+                            name="rating"
+                            min="1"
+                            max="10"
+                            value="5"
+                            oninput="document.getElementById('rating-value').value = this.value"
+                        >
+
+
+                        <div class="range-labels">
+
+                            <span>
+                                1 — Poor
+                            </span>
+
+                            <span>
+                                5 — Average
+                            </span>
+
+                            <span>
+                                10 — Excellent
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 07 CUISINE COLOR -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    07
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Cuisine Color</h2>
+
+                    <p class="section-description">
+                        Choose a color that represents Portuguese cuisine.
+                    </p>
+
+                    <div class="color-picker">
+
+                        <input
+                            type="color"
+                            id="color"
+                            name="color"
+                            value="#d4a017"
+                        >
+
+                        <label for="color">
+                            Choose your color.
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 08 RECOMMENDATION -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    08
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Recommendation</h2>
+
+                    <p class="section-description">
+                        Would you recommend Portuguese cuisine?
+                    </p>
+
+                    <div class="choice-grid">
+
+                        <label class="choice-card">
+
+                            <input
+                                type="radio"
+                                name="recommendation"
+                                value="Definitely"
+                            >
+
+                            <span>
+                                Definitely
+                            </span>
+
+                        </label>
+
+
+                        <label class="choice-card">
+
+                            <input
+                                type="radio"
+                                name="recommendation"
+                                value="Maybe"
+                            >
+
+                            <span>
+                                Maybe
+                            </span>
+
+                        </label>
+
+
+                        <label class="choice-card">
+
+                            <input
+                                type="radio"
+                                name="recommendation"
+                                value="Not Yet"
+                            >
+
+                            <span>
+                                Not Yet
+                            </span>
+
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 09 WEBSITE FEEDBACK -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    09
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Website Feedback</h2>
+
+                    <p class="section-description">
+                        Which sections of the website were useful to you?
+                    </p>
+
+                    <div class="choice-grid">
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="website"
+                                value="Recipes"
+                            >
+                            <span>Recipes</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="website"
+                                value="Culinary Heritage"
+                            >
+                            <span>Culinary Heritage</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="website"
+                                value="Flavor Map"
+                            >
+                            <span>Flavor Map</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="website"
+                                value="Culture and Journey"
+                            >
+                            <span>Culture &amp; Journey</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="website"
+                                value="References"
+                            >
+                            <span>References</span>
+                        </label>
+
+
+                        <label class="choice-card">
+                            <input
+                                type="checkbox"
+                                name="website"
+                                value="Website Design"
+                            >
+                            <span>Website Design</span>
+                        </label>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- 10 COMMENTS -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    10
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Comments and Feedback</h2>
+
+                    <p class="section-description">
+                        Share your comments or suggestions.
+                    </p>
+
+                    <textarea
+                        name="comments"
+                        rows="7"
+                        placeholder="Write your comments and feedback here..."
+                    ></textarea>
+
+                </div>
+
+            </section>
+
+
+            <!-- 11 PHOTO UPLOAD -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    11
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Food Photo Upload</h2>
+
+                    <p class="section-description">
+                        Upload a photo of a Portuguese dish.
+                    </p>
+
+                    <input
+                        type="file"
+                        name="food-photo"
+                        accept="image/*"
+                    >
+
+                    <span class="help-text">
+                        Image files only.
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- 12 PROGRESS -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    12
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Culinary Exploration Progress</h2>
+
+                    <p class="section-description">
+                        Track your progress in exploring Portuguese cuisine.
+                    </p>
+
+                    <progress
+                        value="100"
+                        max="100"
+                    ></progress>
+
+                    <p class="progress-text">
+                        100% — Culinary Guide Completed
+                    </p>
+
+                </div>
+
+            </section>
+
+
+            <!-- 13 BUTTONS -->
+            <section class="form-section">
+
+                <div class="section-number">
+                    13
+                </div>
+
+                <div class="section-content">
+
+                    <h2>Form Buttons</h2>
+
+                    <p class="section-description">
+                        Choose an action below.
+                    </p>
+
+                    <div class="form-buttons">
+
+                        <button
+                            type="submit"
+                            class="btn primary"
+                        >
+                            Submit Feedback
+                        </button>
+
+
+                        <button
+                            type="reset"
+                            class="btn secondary"
+                        >
+                            Clear Form
+                        </button>
+
+
+                        <a
+                            href="index.html"
+                            class="btn outline"
+                        >
+                            View Culinary Guide
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+        </form>
+
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+
+        <div class="footer-content">
+
+            <div>
+
+                <h3>
+                    Sabor de Casa
+                </h3>
+
+                <p>
+                    A Taste of Portugal
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="index.html">
+                    Home
+                </a>
+
+                <a href="index.html#recipes">
+                    Recipes
+                </a>
+
+                <a href="index.html#culture">
+                    Journey
+                </a>
+
+                <a href="index.html#sources">
+                    References
+                </a>
+
+                <a href="Gaza_Feedback.html">
+                    Feedback
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <p>
+                © 2026 Sabor de Casa · Portuguese Culinary Experience
+            </p>
+
+        </div>
+
+    </footer>
+
+</body>
+</html>
